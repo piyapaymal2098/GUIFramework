@@ -33,6 +33,7 @@ public class WebDriverUtility {
 	}
 	/**
 	 * Wait for element visibility in DOM document
+	 * 
 	 * @param driver
 	 * @param element
 	 */
@@ -273,6 +274,11 @@ public class WebDriverUtility {
 		FileUtils.copyFile(srcFile, new File("./screenshot/"+testName+".png"));
 	   
 	}
+	
+	public void maximizeWindo(WebDriver driver) {
+		driver.manage().window().maximize();
+	}
+
 	
 }
 

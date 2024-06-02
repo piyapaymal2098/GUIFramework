@@ -4,9 +4,9 @@
   <artifactId>ComcastCRMGUIFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
     <properties>
-    <maven.compiler.target>1.17</maven.compiler.target>
-    <maven.compiler.source>1.17</maven.compiler.source>
-</properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
   
       <profiles>
           <profile>
@@ -73,7 +73,7 @@
 	<dependency>
 	    <groupId>org.seleniumhq.selenium</groupId>
 	    <artifactId>selenium-java</artifactId>
-	    <version>4.8.3</version>
+	    <version>4.13.0</version>
 	</dependency>
 	
 	
@@ -149,7 +149,7 @@
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>6.14.3</version>
+    <version>7.7.1</version>
 </dependency>
 
 <dependency>
